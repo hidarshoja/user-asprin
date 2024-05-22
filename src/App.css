@@ -1,0 +1,25 @@
+/* @font-face {
+  font-family: "vazir";
+  src: url("/font/Vazirmatn-Medium.ttf");
+} */
+@font-face {
+  font-family: "vazir";
+  src: url("/font/IRANSans/IRANSansWeb.ttf");
+}
+
+* {
+  font-family: "vazir";
+}
+
+body {
+  direction: rtl;
+  background-color: #fbfaf6;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.active {
+  @apply bg-[#FDCB44] text-gray-800;
+}
